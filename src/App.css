@@ -1,0 +1,297 @@
+
+
+.loguito{
+    cursor: pointer;
+    margin-top: -1rem;
+    vertical-align: middle;
+    width: 15%;
+
+    @media screen and (max-width: 960px) {
+       width: 6%;
+      
+    
+      }
+
+    }
+.pagina{
+  font-family:Afacad ;
+padding-top: 50px;
+text-align: CENTER;
+padding-bottom: 250px;
+}
+.subenl{
+  
+    font-size: small;
+    font-weight: 500;
+    
+    padding: 8px;
+    text-decoration: none;
+color: black;
+
+
+}
+.subenl:hover {
+    color: #888c91;
+    
+  }
+
+.enlaces{
+  font-family:Afacad ;
+    text-decoration: none;
+    color: rgb(133, 139, 145);
+    transition: all 0.4s;
+}
+.enlaces:hover{
+
+    color: #fff;
+}
+    
+
+.iconos{
+    margin-top: -2px;
+    color: #2c2b2b;
+    font-size: 1.3rem;
+    transition: all 0.2s;
+}
+.iconos:hover{
+color: #000;
+
+}
+
+
+.headim {
+
+  background-image: url('./assets/headimage.jpg');
+  width: 100%;
+  height: 10vh; /* Ajusta esto según tus necesidades */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .headim {
+    background-position: center; /* Centra la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el espacio */
+  }
+
+  .img-fluid {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen */
+    width: 50%; /* Ajusta el tamaño de la imagen */
+  }
+}
+
+/* Estilo para pantallas más grandes */
+.bg-image-full {
+  
+   height: 80%;
+   width: 100%;
+}
+.v1{
+
+  background-image: url('./assets/acercaedim.jpg');
+}
+.v2{
+
+  background-image: url('./assets/articulosd.jpg');
+}
+.v3{
+
+  background-image: url('./assets/deporteport.jpg');
+}
+.v4{
+
+  background-image: url('./assets/atletisd.jpg');
+}
+.v5{
+
+  background-image: url('./assets/atletisd1.jpg');
+}
+
+.v6{
+
+  background-image: url("https://brand.assets.adidas.com/f_auto,q_auto,fl_lossy/capi/enUS/Images/what-shoes-to-wear-to-the-gym-masthead-d_221-927747.jpg");
+}
+.v7{
+
+  background-image: url('https://estaticos-cdn.prensaiberica.es/clip/ce8719ce-3db2-4256-8731-daa3e1dba42a_alta-libre-aspect-ratio_default_0.jpg');
+}
+
+
+@media (max-width: 768px) {
+  
+
+  .img-fluid {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+
+.imgtot{
+  height: 3rem;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.fondo {
+  background: linear-gradient(to right, #f18686, #5bb3ff);
+  
+}
+.desbor{
+  text-align: center;
+  margin: auto;
+  width: 85%;
+
+}
+
+
+#abouti{
+  padding-top: 70px;
+
+padding-bottom: 70px;
+
+}
+
+.caja{
+  width: 80%;
+
+ margin: auto;
+ margin-left: 10%;
+ margin-bottom: 70px;
+
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #000; /* Cambia el color según tus preferencias */
+}
+
+.social-icon:hover {
+  color: #ffcc00; /* Cambia el color del hover según tus preferencias */
+}
+
+
+ 
+
+
+
+.video-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Relación de aspecto 16:9 */
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .video-responsive {
+    padding-top: 75%; /* Aumenta la altura para dispositivos móviles */
+  }
+}
+
+
+
+
+.rounded {
+  border-radius: var(--bs-border-radius) !important;
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(59, 58, 56, 0.9);
+}
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+}
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+.bg-faded {
+  background-color: #f7f1e9;
+}
+.footer-20192 {
+    position: relative;
+    color: #686868;
+    padding: 7rem 0;
+    background-color: #090d13; }
+    .footer-20192 .container {
+      position: relative; }
+    .footer-20192 h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5; }
+    .footer-20192 .links li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      display: block; }
+      .footer-20192 .links li a {
+        color: #666873; }
+        .footer-20192 .links li a:hover {
+          color: #fff; }
+    .footer-20192 .social li {
+      display: inline-block;
+      position: relative; }
+      .footer-20192 .social li a {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background-color: #beb80a;
+        color: #fff; 
+        transition: all 0.3s;
+    }
+        .footer-20192 .social li a:hover {
+            background-color: #FFF933;
+        }
+        .footer-20192 .social li a > span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+    .footer-20192 .footer-logo {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: .1rem; }
+    .footer-20192 .copyright {
+      color: #666873; }
+    .footer-20192 .cta {
+      -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      box-shadow: -20px -20px 50px 0 rgba(20, 20, 20, 0.404);
+      padding: 20px;
+      background-color: #ddc700;
+      top: -150px;
+      position: relative; }
+      .footer-20192 .cta h2, .footer-20192 .cta h3 {
+        line-height: 1.5; }
+      .footer-20192 .cta h3 {
+        font-size: 20px; }
+        
