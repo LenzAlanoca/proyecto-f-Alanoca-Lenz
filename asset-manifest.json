@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto-f-Alanoca-Lenz/static/css/main.9801b0a8.css",
-    "main.js": "/proyecto-f-Alanoca-Lenz/static/js/main.b9721517.js",
+    "main.js": "/proyecto-f-Alanoca-Lenz/static/js/main.553ca040.js",
     "static/media/team1.jpg": "/proyecto-f-Alanoca-Lenz/static/media/team1.6a4f56ea8b8f7d04fed1.jpg",
     "static/media/atletisd.jpg": "/proyecto-f-Alanoca-Lenz/static/media/atletisd.b60ad332d113179787aa.jpg",
     "static/media/team2.jpg": "/proyecto-f-Alanoca-Lenz/static/media/team2.6691dcf4145891e2644a.jpg",
@@ -44,10 +44,10 @@
     "static/media/logo1.png": "/proyecto-f-Alanoca-Lenz/static/media/logo1.37747506311b24a6a75e.png",
     "index.html": "/proyecto-f-Alanoca-Lenz/index.html",
     "main.9801b0a8.css.map": "/proyecto-f-Alanoca-Lenz/static/css/main.9801b0a8.css.map",
-    "main.b9721517.js.map": "/proyecto-f-Alanoca-Lenz/static/js/main.b9721517.js.map"
+    "main.553ca040.js.map": "/proyecto-f-Alanoca-Lenz/static/js/main.553ca040.js.map"
   },
   "entrypoints": [
     "static/css/main.9801b0a8.css",
-    "static/js/main.b9721517.js"
+    "static/js/main.553ca040.js"
   ]
 }
